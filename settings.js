@@ -44,7 +44,7 @@ MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/gld2vo.jpg",
 LIVE_MSG: process.env.LIVE_MSG || "> ✦ᴍᴀʟᴠɪɴ xᴅ✦ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ v2✦ ғʀᴏᴍ ɴᴇxᴜs ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/kingmalvn/MALVIN-XD",
 // add alive msg here 
 
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
 AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -53,7 +53,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words
 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -95,16 +95,16 @@ PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 // make it true for fake recoding 
 
-FAKE_TYPING: process.env.FAKE_TYPING || "false",
+FAKE_TYPING: process.env.FAKE_TYPING || "true",
 // make it true for fake typing
 
-READ_CMD: process.env.READ_CMD || "false",
+READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
 DEV: process.env.DEV || "263714757857",
